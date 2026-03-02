@@ -1,0 +1,17 @@
+# Ini adalah Projek Kalkulator Umur Sederhana
+print("--- HALO, AKU ROBOT PINTAR ---")
+
+# 1. Robot nanya nama kamu
+nama = input("Siapa namamu? ")
+
+# 2. Robot nanya tahun lahir kamu
+# (Kita pakai int() supaya robot tahu ini Angka, bukan Tulisan)
+tahun_lahir = int(input("Tahun berapa kamu lahir? "))
+
+# 3. Robot ngitung (Tahun sekarang dikurang tahun lahir)
+tahun_sekarang = 2026
+umur = tahun_sekarang - tahun_lahir
+
+# 4. Robot kasih tau hasilnya
+print("Wah, " + nama + "!")
+print("Berarti umur kamu sekarang adalah " + str(umur) + " tahun.")
